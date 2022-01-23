@@ -1,0 +1,37 @@
+gcloud --version:
+  Google Cloud SDK 369.0.0
+  alpha 2022.01.14
+  beta 2022.01.14
+  bq 2.0.72
+  core 2022.01.14
+  gsutil 5.6
+  minikube 1.24.0
+  skaffold 1.35.1
+terraform apply:
+  google_bigquery_dataset.dataset: Creation complete after 2s [id=##############################]
+  google_storage_bucket.data-lake-bucket: Creation complete after 2s [id=######################]
+  Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+Question3:
+  53024
+  SELECT COUNT(1)
+  FROM YELLOW_TAXI_DATA
+  WHERE CAST(TPEP_PICKUP_DATETIME AS date) = '2021-01-15'
+
+Question4:
+  2021-01-20
+  SELECT *
+  FROM YELLOW_TAXI_DATA
+  WHERE TPEP_PICKUP_DATETIME BETWEEN '2021-01-01' AND '2021-01-31'
+  ORDER BY TIP_AMOUNT DESC
+
+Question5:
+  Unknown
+  SELECT *
+  FROM YELLOW_TAXI_DATA
+  WHERE CAST(TPEP_PICKUP_DATETIME AS date) = '2021-01-14'
+    AND PASSENGER_COUNT IS NOT NULL
+    AND ("PULocationID") = 43
+  ORDER BY PASSENGER_COUNT desc
+
+  
