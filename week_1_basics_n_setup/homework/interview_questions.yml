@@ -1,0 +1,2 @@
+Question1:
+  - Given a chess board with a knight starting on a random space, write a program that gives us the average number of random moves it takes for the knight to fall off the side of the chess board for a given number of tests (1000).
