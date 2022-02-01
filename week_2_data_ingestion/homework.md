@@ -77,7 +77,7 @@ Now create another DAG - for uploading the FHV data.
 
 We will need three steps: 
 
-* Donwload the data
+* Download the data
 * Parquetize it 
 * Upload to GCS
 
@@ -115,7 +115,7 @@ How often does it need to run?
 
 ## Submitting the solutions
 
-* Form for submitting: TBA
+* Form for submitting: https://forms.gle/ViWS8pDf2tZD4zSu5
 * You can submit your homework multiple times. In this case, only the last submission will be used. 
 
-Deadline: February 4, 22:00 CET 
+Deadline: February 7, 17:00 CET 
